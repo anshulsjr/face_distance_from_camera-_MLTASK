@@ -18,7 +18,7 @@ while True:
 
         cv2.rectangle(frame, (a, b), (a+c, b+d), (0, 255, 0), 2)
 
-        cv2.putText(frame, f"Distance: {distance:.2f} cm", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+        cv2.putText(frame, f"Distance: {distance:.2f} cm", (a, b-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
     cv2.imshow("Face Distance Measurement", frame)
 
